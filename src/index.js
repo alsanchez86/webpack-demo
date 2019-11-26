@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 import image from './image.png';
+import data from './data.xml';
 
 function component() {
     const element = document.createElement('div');
@@ -15,3 +16,4 @@ function component() {
 }
 
 document.body.appendChild(component());
+console.log(data);
